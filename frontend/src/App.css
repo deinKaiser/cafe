@@ -1,0 +1,78 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  background: rgba(0,53,128, 0.6);
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100vw;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.center-all {
+  justify-content: center;
+  align-items: center;
+}
+
+.time-input {
+  color: white;
+}
+
+.MuiInputBase-input {
+  color: white !important;
+}
+
+input#test {
+  color: black !important;
+  font-size: 18pt;
+}
+
+.header-bkg {
+  background-image: url(https://source.unsplash.com/random);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 300px;
+}
+
+.title {
+  color: white;
+  font-size: 27pt;
+  font-weight: 700;;
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 20px;
+}
+
+.todoLabel {
+  color: white;
+  font-size: 19pt;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.order-window {
+  width: 70vw;
+  height: 60vh;
+  margin-top: 20px;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.order-info-title {
+  font-size: 22pt;
+}
