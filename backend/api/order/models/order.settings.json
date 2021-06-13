@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "name": "Order",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "board": {
+      "model": "board"
+    },
+    "first_time": {
+      "type": "datetime"
+    },
+    "second_time": {
+      "type": "datetime"
+    }
+  }
+}

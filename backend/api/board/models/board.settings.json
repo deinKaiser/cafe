@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "boards",
+  "info": {
+    "name": "Board"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Placement": {
+      "type": "string"
+    }
+  }
+}
